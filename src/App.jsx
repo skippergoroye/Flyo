@@ -1,4 +1,5 @@
 import React from 'react'
+import Hero from './components/Hero'
 
 
 function App() {
@@ -6,10 +7,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <h1 className="text-3xl font-bold underline dark:bg-black darK:text-white">
-           Hello world!
-        </h1>
+      <div className='dark:bg-darkBlue dark:text-white font-opensans'>
+        <Hero />
       </div>
     </>
   )
